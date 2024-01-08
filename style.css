@@ -182,6 +182,10 @@ body {
     margin: 100px auto;
 }
 
+.portfolio-text {
+    width: 800px;
+}
+
 .portfolio-heading {
     color: #F00;
     font-family: Inter;
@@ -207,12 +211,81 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.item{
+
+.item {
     text-align: center;
 }
-.item img{
+
+.item img {
     width: 400px;
     height: 400px;
     margin-right: 13px;
     margin-bottom: 13px;
+}
+
+/* dubscribe section style */
+
+.subscribe-section {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(240, 177, 177, 0.466);
+    border-radius: 10px;
+    width: 1265px;
+    margin-bottom: 100px;
+    padding: 100px 0px;
+}
+
+.subscribe-img {}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 40px 0px 20px 0px;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+    width: 800px;
+    margin: 0px auto 50px;
+}
+
+.search-box {
+    width: 600px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px 45px 45px 50px;
+    padding: 23.4px 50px;
+    border: none;
+    margin-left: 150px;
+}
+
+.subscribe-btn {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 20px 50px;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    left: -200px;
+    padding-top: 20px;
+    padding-bottom: 23px;
 }

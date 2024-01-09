@@ -187,7 +187,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margipx 0px;
+    margin: 150px 0px;
 }
 
 .offer-left-title {
@@ -344,10 +344,17 @@ body {
 }
 
 .item img {
-    width: 400px;
+    width: 380px;
     height: 400px;
     margin-right: 13px;
     margin-bottom: 13px;
+    padding: 10px;
+    transition: all ease 0.3s;
+}
+.item img:hover{
+    /* background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    z-index: 2; */
+    padding: 20px 10px 0px;
 }
 
 /* dubscribe section style */

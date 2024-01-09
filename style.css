@@ -471,3 +471,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+.btn{
+    cursor: pointer;
+}
